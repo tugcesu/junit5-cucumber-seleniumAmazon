@@ -37,10 +37,11 @@ mvn clean install
 * After test execution, you can find the url to reach cucumber test report.
 
 ## Github Action integration
-* Test cases are executable after commit on the github action(ci/cd integration)
+* Test cases are executable after every commit on the github action(ci/cd integration), check Actions tab.
+* You can find the file by using the path :  .github/workflows/maven.yml
 
 ## Warning!
-* Sometimes Amazon wants to authentication confirmation, when it happen, test goes fail status. Please make sure process goes without authentication confirmation.
+* Sometimes Amazon wants to action required confirmation, when it happen, test goes fail status. Please make sure process goes without action required confirmation.
 
 ## Reasons behind the chosen framework and pattern(s)
 
